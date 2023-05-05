@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        section {
+            padding: 60px 0;
+        }
+    </style>
+    <title>I'm just learning Bootstrap 5</title>
+</head>
+<body>
+    <h1>Nabiel learns Bootstrap</h1>
+    <h2>This is h2</h2>
+    <h3>This is h3</h3>
+    <h2 class="h3">This is an h2 tag with the h3 class</h2>
+    <!-- display headings  -->
+    <h1 class="display-1">Display 1 heading</h1>
+    <h1 class="display-2">Display 2 heading</h1> 
+    <h1 class="display-6">Display 6 heading</h1>
+    <p class="display-1">p tag with display 1</p>
+
+    <!-- lead text and alignment -->
+    <small>This is small</small>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="lead text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="lead text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <!-- text decoration and font weight -->
+    <p class="text-decoration-underline">Underlined text</p>
+    <p class="text-decoration-line-through">Underlined text</p>
+    <p class="fw-bold">Underlined text</p>
+    <small>This is small</small>
+
+    <!-- text colors -->
+    <p class="text-primary">Primary color</p>
+    <p class="text-secondary">Secondary color</p>
+    <p class="text-info">info color</p>
+    <p class="text-warning">warning color</p>
+    <p class="text-success">success color</p>
+    <p class="text-danger">danger color</p>
+    <p class="text-muted">muted color</p>
+
+    <!-- bg color -->
+    <p class="text-white bg-primary">white text on primary bg</p>
+    <p class="text-white bg-secondary">white text on secondary bg</p>
+    <p class="text-light bg-danger">white text on danger bg</p>
+
+    <!-- buttons -->
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-light">Light</button>
+    <button class="btn btn-dark">Dark</button>
+
+    <h1>size applied</h1>
+
+    <button class="btn btn-lg btn-primary">Primary</button>
+    <button class="btn btn-sm btn-secondary">Secondary</button>
+    <button class="btn-success">Success</button>
+    <button class="btn btn-outline-danger btn-danger">outline Danger</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-light">Light</button>
+    <button class="btn btn-dark">Dark</button>
+
+    <!-- button group -->
+
+    <h2>button groups
+    </h2>
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary">button 1</a>
+        <a href="#" class="btn btn-warning">button 2</a>
+        <a href="#" class="btn btn-success">button 3</a>
+    </div>
+    <!-- utility classes -->
+    <h2>Utility classes!</h2>
+    <br><br><br>
+
+    <!-- margin and padding -->
+    <div class="bg-primary m-2 p-2">small margin and padding</div>
+    <div class="bg-primary m-5 p-5">large margin and padding</div>
+    <div class="bg-primary my-3 px-5">margin in y dir and padding in x dir</div>
+    <div class="bg-primary mt-3 mb-4 ms-3 me-3 ps-5 pe-4 pb-1 pt-2">m & p for each dir</div>
+
+    <!-- borders -->
+    <div class="m-3 p-3 border">default border</div>
+    <div class="m-3 p-3 border-top border-end">individual borders</div>
+    <div class="m-3 p-3 border-start border-success">border success color at start</div>
+    <div class="m-3 p-3 border-start border-danger border-5">thicker border</div>
+    <div class="m-3 p-3 rounded border border-5">rounded thick border</div>
+    <div class="m-3 p-3 rounded-pill border border-5">rounded pill border</div>
+
+    <!-- box shadow -->
+    <div class="m-3 p-3 shadow-sm">elements with small box shadow</div>
+    <div class="m-3 p-3 shadow">elements with medium box shadow</div>
+    <div class="m-3 p-3 shadow-lg">elements with large box shadow</div>
+    
+    <!-- font weight -->
+    <br><br>
+    <p>normal text</p>
+    <p class="fw-bold">bold text</p>
+    <p class="fw-bolder">bolder text</p>
+    <p class="fst-italic fw-light">italic text light</p>
+    <p class="fst-italic">italic text</p>
+
+    <!-- containers -->
+    <br><br><br><br>
+    <h1>container!</h1>
+    <br><br>
+    <div class="container my-5">
+        <h2>normal container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi id molestias iure modi dicta ex quas ipsum soluta quis exercitationem.</p>
+    </div>
+    <div class="container-fluid">
+        <h2>fluid container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi repellendus sequi, placeat molestiae quisquam libero totam ab esse et magnam nihil molestias ullam, tempora quis earum quae, delectus dignissimos.</p>
+    </div>
+    <div class="container-lg my-5">
+        <h2>100% width until lg screens, then container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reiciendis ex dicta eveniet quisquam, rem alias consectetur fugiat non nesciunt.</p>
+    </div>
+
+    <div class="container-xl my-5">
+        <h2>100% width until xl screens</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nisi fugiat earum nam, voluptas laudantium quam molestias dolore qui tenetur reprehenderit, repudiandae aperiam eveniet, harum quod possimus optio doloribus consectetur commodi aliquid? Consectetur magni distinctio quaerat explicabo obcaecati ipsa maiores?</p>
+    </div>
+
+
+    <!-- grid system -->
+    <h1>GRID system</h1>
+    <br><br>
+    <div class="container-lg my-5">
+        <h2>basic grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>column widths</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>responsive column widths</h2>
+        <div class="row">
+            <div class="col-sm-4 col-lg-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>justifying columns</h2>
+        <!-- justify content start center end between -->
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold text-light">
+                    Portfolio
+                </span>
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#topics" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#contact" class="nav-link">Contact me!</a>
+                    </li>
+                    <li class="nav-item ms-2 d-md-none">
+                        <a href="#pricing" class="nav-link">Rates</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- main img &intro txt -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Nabiel</div>
+                        <div class="display-5 text-muted">Your WebDev</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Contact now!</a>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img class="img-fluid d-none d-md-block" src="image.png" alt="chernobylite">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-center text-decoration-underline">cards</h1>
+
+    <!-- pricing plans -->
+    <section id="pricing" class="bg-light mt-5 ">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Rates</h2>
+                <p class="text-muted lead">Quality services at affordable rates!</p>
+
+            </div>
+            <div class="row my-5 align-items-center justify-content-center">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Hosting</h4>
+                            <p class="lead card-subtitle">Developing and hosting professional websites at affordable rates</p>
+                            <p class="display-5 my-4 text-primary fw-bold">Starting at Rs.10k</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Make a deal!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-lg-4">
+                <div class="card border-primary border-2">
+                    <div class="card-body text-center py-5">
+                            <h4 class="card-title">Hosting</h4>
+                            <p class="lead card-subtitle">Developing and hosting professional websites at affordable rates</p>
+                            <p class="display-4 my-4 text-primary fw-bold">Starting at Rs.10k</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Make a deal!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- forms -->
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Get in touch</h2>
+            <p class="lead">Questions to ask? Fill out the form to contact me directly!</p>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form>
+                    <label for="email" class="form-label">
+                        Email Address :
+                        
+                    </label>
+                    <input type="email" class="form-control" id="email" placeholder="e.g. name@email.com">
+                    <label for="name" class="form-label">
+                        Name:  </label>
+                    <input type="text" class="form-control" id="name" placeholder="eg. Nabiel">
+                    <label for="subject" class="form-label">What is your query?</label>
+                    <select id="subject" class="form-select">
+                        <option value="rates" selected>Pricing query</option>
+                        <option value="team">Team</option>
+                        <option value="others">Others</option>
+                    </select>
+                    <label for="query" class="form-label">
+                        Your query...
+                    </label>
+                    <textarea placeholder="Explain in detail." id="query" style="height: 140px;" class="form-control"></textarea>
+                    <div class="mb-4 mt-4 text-center">
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
